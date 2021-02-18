@@ -17,10 +17,4 @@ public class AppTest {
     public void shouldNotFail() {
         assertTrue(true);
     }
-
-    @Ignore
-    @Test
-    public void shouldFail() {
-        Assert.fail();
-    }
 }
